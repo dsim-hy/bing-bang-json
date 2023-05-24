@@ -21,3 +21,5 @@ for x in range(1,101):
 # Write result array into output.json
 with open("output.json", "w") as file:
     json.dump(result, file)
+
+print("Successfully write result into output.json")
