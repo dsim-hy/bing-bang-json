@@ -20,6 +20,6 @@ Follow these steps to run the script:
 1. Download or clone this repository to your local machine
 2. Open your command prompt or terminal and navigate to the location of the files
 3. Choose the languages you want to run in and enter the following command:
-- Python: ```python Main.py```
-- JavaScript: ```node script.js```
+    - Python: `python Main.py`
+    - JavaScript: `node script.js`
 4. Wait for the execution of the script and an output.json file will be created in the folder.
