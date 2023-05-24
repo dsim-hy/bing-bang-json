@@ -4,7 +4,7 @@ let result = [];
 // Iterate from 1 to 100
 for (let x = 1; x < 101; x++) {
     // Check if x is divisible by 3 and 5
-    if (x % 3 == 0, x % 5 == 0)
+    if (x % 3 == 0 && x % 5 == 0)
     {
         result.push("BIGBANG");
     }
@@ -25,6 +25,7 @@ for (let x = 1; x < 101; x++) {
     }
 }
 
+const fs = require("fs");
 // Write result array into output.json
 fs.writeFile("output.json", JSON.stringify(result), (err) => {
     // Handle any errors
@@ -32,6 +33,6 @@ fs.writeFile("output.json", JSON.stringify(result), (err) => {
       console.error(err);
     } else {
       // Log a success message
-      console.log("Successfully write into output.json");
+      console.log("Successfully write result into output.json");
     }
 });
